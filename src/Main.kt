@@ -31,7 +31,7 @@ fun main() {
     print(userPayload)
 
     println("-------------------------")
-    val timezoneSample = "UTC -12:00"
+    val timezoneSample = "UTC-01:00"
     val matched = FunctionalProgramming.isTimezoneFormatValid(timezoneSample)
     println(matched)
 

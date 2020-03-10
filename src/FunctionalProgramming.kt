@@ -7,7 +7,7 @@ class FunctionalProgramming {
 
         fun isTimezoneFormatValid(timezone: String): Boolean {
             val newTimezone = timezone.replace("\\s".toRegex(), "")
-            val pattern = "UTC[+-]([0-9]{2}|[0-9]):[0-9]{2}".toRegex()
+            val pattern = "^UTC[+-]([0-9]{2}|[0-9]):[0-9]{2}$".toRegex()
             if(pattern.containsMatchIn(newTimezone)) {
                 return true
             }
