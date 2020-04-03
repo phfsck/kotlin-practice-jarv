@@ -1,3 +1,5 @@
+package com.kotlin.practice.jarv.kotlinpracticejarv.temp
+
 class UserPayload(data: LinkedHashMap<String, Any>): LinkedHashMap<String, Any>() {
 
     private val ID = "id"

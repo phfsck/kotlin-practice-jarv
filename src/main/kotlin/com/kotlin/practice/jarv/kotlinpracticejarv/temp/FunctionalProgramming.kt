@@ -1,4 +1,4 @@
-// https://hackernoon.com/functional-programming-by-example-with-kotlin-27fd7e49b55f
+package com.kotlin.practice.jarv.kotlinpracticejarv.temp// https://hackernoon.com/functional-programming-by-example-with-kotlin-27fd7e49b55f
 // https://github.com/jacquesgiraudel/IntroPgmFonct
 
 class FunctionalProgramming {

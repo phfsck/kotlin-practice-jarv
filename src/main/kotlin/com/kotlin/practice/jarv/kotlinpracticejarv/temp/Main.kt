@@ -1,3 +1,5 @@
+package com.kotlin.practice.jarv.kotlinpracticejarv.temp
+
 import reactor.core.publisher.Flux
 import java.util.*
 import kotlin.collections.HashMap
@@ -22,6 +24,7 @@ fun main() {
 
     val fluxInt: Flux<Int> = Flux.range(1, 10)
     fluxInt.subscribe()
+    fluxInt.then()
 
     println("-------------------------")
     val userPayload = UserPayload()

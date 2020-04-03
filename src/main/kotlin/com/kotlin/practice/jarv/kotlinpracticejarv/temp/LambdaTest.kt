@@ -1,3 +1,5 @@
+package com.kotlin.practice.jarv.kotlinpracticejarv.temp
+
 class LambdaTest(private val src: String)  {
 
     private var _src: String = ""
